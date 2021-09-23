@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Raleway', sans-serif;
+            background-color: #d9dbdb;
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 3%;
+        }
+        #banner img{
+            max-width: 100%;
+        }
+        header{
+            width: 98%;
+        }
+        #logo img{
+            max-width: 50px;
+            margin: 3% 0 3% 3%;
+            float: left;
+        }
+        .social-icon{
+            max-width: 30px;
+        }
+        #wraper{
+            background-color: #f0f6fb;
+        }
+        #social{
+            float: right;
+            margin: 3% 2% 4% 3%;
+            list-style-type: none;
+        }
+        #social > li {
+            display: inline;
+        }
+        h1, p{
+            margin: 3%;
+        }
+        .btn{
+            float: right;
+            margin: 0 2% 4% 0;
+            background-color: #303840;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 800;
+            padding: 8px 12px;
+            border-radius: 8px;
+            letter-spacing: 1.5px;
+        }
+        hr{
+            clear: both;
+            height: 2px;
+            background-color: #303840;
+            width: 96%;
+            margin: auto;
+        }
+
+        #content{
+            text-align: center;
+            padding-bottom: 3%;
+            line-height: 16px;
+            font-size: 12px;
+        }
+        </style>
+    <title>Document</title>
+</head>
+<body>
+    <div id="wraper">
+        <header>
+            <div id="logo">
+                <img src="img/mozy.png" alt="">
+            </div>
+            <div>
+                <ul id="social">
+                    <li><a href="#" target="_blank"><img class="social-icon" src="img/facebook.png" alt=""></a></li>
+                    <li><a href="#" target="_blank"><img class="social-icon" src="img/instagram.png" alt=""></a></li>
+                    <li><a href="#" target="_blank"><img class="social-icon" src="img/twitter.png" alt=""></a></li>
+                    <li><a href="#" target="_blank"><img class="social-icon" src="img/gmail.png" alt=""></a></li>
+                </ul>
+            </div>
+        </header>
+        <div id="banner">
+            <img src="img/ban.jpg" alt="">
+        </div>
+        <div class="one-col">
+            <h1>Learn how to create emails in HTML!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Quae, esse, placeat ipsum ab blanditiis illo illum magnam dignissimos molestias corporis obcaecati et exercitationem libero non provident quidem,
+            laborum sapiente doloremque.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quidem illo dolorum eius, doloremque repellendus hic ea accusamus odit optio numquam atque perspiciatis quis
+            accusantium officia sint sit odio nesciunt eos?</p>
+
+            <a href="#" class="btn">Lorem More</a>
+            
+            <hr>
+
+            <footer>
+                <p id="content">
+                    Emailer <br>
+                    Seawood corner <br>
+                    03-708 sector 21, Seawood <br>
+                    contact@seawood.com
+                </p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
